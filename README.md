@@ -1,3 +1,14 @@
+# requirements
+Create a Counter component in Vue.js/Reactjs. We should be able to reset,increment or decrement the counter.
+
+
+# deployed on netlify
+https://counterapp26.netlify.app/
+
+# added
+toogle theme
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
