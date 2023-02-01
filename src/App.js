@@ -13,9 +13,9 @@ const App =() => {
   const [count,setCount] = useState(0);
   return (
     <div className={`App ${theme}`}>
-        <button onClick={toggleTheme}>Toggle Theme</button>
+        <button className="toggle" onClick={toggleTheme}>Toggle Theme</button>
         <h1> Counter App </h1>
-        <h2> {count} </h2>
+        <h2 className='container'> {count} </h2>
         <button className='Increment' onClick={()=> setCount (count + 1)}>Increment</button>
         <button className='Decrement' onClick={()=> setCount (count - 1)}>Decrement</button>
         <button className='Reset' onClick={()=> setCount (0)}>Reset</button>

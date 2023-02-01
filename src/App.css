@@ -1,13 +1,39 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400&display=swap');
+}
+body{
+  font-family: 'Rubik', sans-serif;
+}
 
 .App {
-  font-family: sans-serif;
   text-align: center;
   padding: 0;
   margin: 0;
 }
+
 .Increment{
-  margin-right: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
 .Decrement{
-  margin-right: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Reset{
+  border-radius: 10px;
+  padding: 10px;
+}
+.toggle{
+  border-radius: 10px;
+  padding: 10px;
+}
+.container{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  height: 3vh;
+  font-size: 100px;
+  padding: 10px;
+  color: grey;
 }
